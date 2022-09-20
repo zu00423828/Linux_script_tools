@@ -11,7 +11,7 @@ done < "server.list"
 
 echo -e "\n-- start search  --\n"
 echo "  -web domain : server ip-   "
-for item in "${LIST[@]}"; do
+for item in ${LIST[@]}; do
  	ip=`nslookup $item|grep Address|tail -n 1|cut -f2 -d:`
     echo "    |-->" $item : $ip
 done
