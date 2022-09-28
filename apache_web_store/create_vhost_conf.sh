@@ -15,5 +15,5 @@ do
                 AllowOverride All
                 Require all granted
             </Directory>
-    </VirtualHost>" >> $2
+    </VirtualHost>" >> exhibitions.conf
 done
