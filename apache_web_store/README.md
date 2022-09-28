@@ -16,6 +16,11 @@
     python create_vhsot_conf.py
     ```
     * 如須修改請更改 第4行的extracts 改成自己放解壓縮的資料夾，以及DocumentRoot和Directory的 public/改成有 index開頭的資料夾路徑，若在網站根目錄底下 就直接拿掉public/的文字
+    or
+    ```
+    create_vhost_conf.sh extracts
+    ```
+    * extracts 改成自己放解壓縮的資料夾，以及DocumentRoot和Directory的 public/改成有 index開頭的資料夾路徑，若在網站根目錄底下 就直接拿掉public/的文字
 # 5. 將 vhsot.conf 放到/etc/httpd/vhost/000/
     ```
     cp exhibitions.conf /etc/httpd/vhost/000/

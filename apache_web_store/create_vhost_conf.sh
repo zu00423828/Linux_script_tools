@@ -1,4 +1,3 @@
-max=10
 for f in $1/*
 do
     dirname="$(basename $f)"
