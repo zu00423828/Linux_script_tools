@@ -4,7 +4,7 @@ do
     echo $dirname
     echo "
     <VirtualHost *:80>
-            ServerAdmin i@sjcorp.com.tw
+            ServerAdmin xxxx
             DocumentRoot \"/var/www/html/$dirname/public/\"
             ServerName \"www.$dirname\"
             ServerAlias \"$dirname\"
