@@ -5,7 +5,7 @@ with open('exhibitions.conf','w+') as f:
 		f.write(
             '''
             <VirtualHost *:80>
-                    ServerAdmin i@sjcorp.com.tw
+                    ServerAdmin xxx
                     DocumentRoot "/var/www/html/{}/public/"
                     ServerName "www.{}"
                     ServerAlias "{}"
